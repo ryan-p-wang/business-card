@@ -1,38 +1,107 @@
-.App {
+html {
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  background-color: #23252C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Headshot img {
+  width: 20em;
+  margin-top: 1em;
+  border-radius: 10px 10px 0px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  margin: 0 auto;
+  width: 20em;
+  background-color: #1A1B21;
+}
+
+.main-title {
+  margin: -0.2em 0em 0em 0em;
+  padding-top: 0.5em;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.main-subtitle {
+  margin: 0.1em 0em 1em 0em;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.contacts {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.contacts button {
+  margin: 0em 0.75em 0em 0.75em;
+  width: 8em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffffff;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.contacts h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contacts button:nth-child(2) {
+  background: #5093E2;
+  border: 1px solid #5093E2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contacts h4 {
+  margin: 0.5em 0em 0.5em 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main h2 {
+  text-align: left;
+  padding: 0em 0em 0em 2.3em;
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+main p {
+  text-align: left;
+  margin: -1em 0em 0em 0em;
+  padding: 0em 3.5em 2em 3.5em;
+  color: #DCDCDC;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+footer {
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  width: 20em;
+  background-color: #161619;
+}
+
+footer small {
+  font-size: 10px;
+  color: #acacac;
 }
